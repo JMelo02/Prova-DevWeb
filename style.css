@@ -1,0 +1,150 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #0070c9;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+main {
+  margin: 20px;
+}
+
+.conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; 
+}
+
+footer {
+  background-color: #0070c9;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1.highlight, h2.highlight, h3.highlight, h4.highlight, h5.highlight, h6.highlight {
+  animation: highlight 2s ease-in-out infinite;
+}
+
+@keyframes highlight {
+  0% { color: #333; }
+  50% { color: #0070c9; }
+  100% { color: #333; }
+}
+
+.rotating-element {
+  transition: transform 0.3s ease-in-out;
+}
+.content-image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
+}
+
+content-image2 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.conteudo p {
+  margin-bottom: 20px;
+}
+content-image2 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.conteudo p {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-image3 {
+  max-width: 48%; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px; 
+}
+
+.content-image4 {
+  max-width: 68%; 
+  height: auto;
+}
+
+
+
+.content-image5 {
+  max-width: 90%; 
+  height: auto;
+}
+
+.content-image6 {
+  max-width: 25%; 
+  height: auto;
+}
+
+
+.content-image7 {
+  max-width: 100%; 
+  height: auto;
+}
+
+.content-image4 {
+  display: block;
+  margin: 0 auto; /* Isso centraliza horizontalmente a imagem */
+}
